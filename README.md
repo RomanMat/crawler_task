@@ -35,7 +35,7 @@ scraped data.
 **custom endpoints**
 * `api/v1/tenders/list/` - returns full list of tenders. (requires authentication) 
 * `api/v1/tenders/<id>/` - returns specific item list of tenders. (requires authentication) 
-* `api/v1/tenders/search/<year>/<month>/<day>` - returns list of records for specified date. (requires authentication)
+* `api/v1/tenders/search/<year-month-day>` - returns list of records for specified date. (requires authentication)
     
 **frameworks endpoints**
 * `api-token-auth/` - returns token for mentioned username
