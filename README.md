@@ -39,7 +39,7 @@ scraped data.
     
 **frameworks endpoints**
 * `api-token-auth/` - returns token for mentioned username
-* `admin/` - returns
+* `admin/` - gives admin panel access
 
 2. After requests to this endpoint, Django will call *appropriate Django-view*.
 At this step it will also serialize data from database and return those thing, that you need.
